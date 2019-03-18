@@ -6,12 +6,15 @@ umeshList = ["Full Name: Umesh Shukla", "Email Address: umeshdataman@hotmail.com
 aviList = ["Full Name: Avi Shukla", "Email Address: aavart.shukla@outlook.com", "Current Address: 7320 Gallagher Dr, Apt. 210 Edina, MN 55435", "Phone Number: None, is a 8-year old", "Skype: aavart.shukla@outlook.com"]
 #This is coantact3's details list
 jyotiList = ["Full Name: Jyoti Misra", "Email Address: jyotimisra20@gmail.com", "Second Email Address: jyoti_m20@yahoo.com", "Third Email Address: jyoti.misra@hotmail.com", "Current Address: 7320 Gallagher Dr, Apt. 210 Edina, MN 55435", "Phone Number: +1(952)-594-0242", "Skype: jyoti.misra@hotmail.com"]
-
+#This is coantact3's details list
+mamaList = ["Full Name: Deepak Misra"]
+ 
 #dictionary using data of lists
 address_book = {}
-address_book["Umesh"] = umeshList
+address_book["Dad"] = umeshList
 address_book["Avi"] = aviList
-address_book["Jyoti"] = jyotiList
+address_book["Mom"] = jyotiList
+address_book["Mama"] = mamaList
 
 #print statements
 print(address_book)
