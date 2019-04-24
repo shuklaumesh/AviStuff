@@ -79,3 +79,11 @@ def testfunc():
     return
 
 testfunc
+
+
+
+
+var2=0
+while (var2<12):
+    print(str(product) + " " + str(var2) + " za " + str(int(var2)*int(product)))
+    var2 +=1
