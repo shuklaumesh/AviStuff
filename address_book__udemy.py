@@ -11,10 +11,13 @@ mamaList = ["Full Name: Deepak Misra"]
  
 #dictionary using data of lists
 address_book = {}
-address_book["Dad"] = umeshList
+address_book["Pappa"] = umeshList
 address_book["Avi"] = aviList
-address_book["Mom"] = jyotiList
+address_book["Mamma"] = jyotiList
 address_book["Mama"] = mamaList
 
 #print statements
-print(address_book)
+##print(address_book)
+inp1=input("Which contact do you want?")
+
+if inp1 == '
