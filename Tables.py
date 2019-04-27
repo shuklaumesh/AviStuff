@@ -1,7 +1,7 @@
 askBasicQuestion = True
 while True:
     if askBasicQuestion==True:
-        input_one=input("This is a multiplication/division/addition table whatever number you type it will give u answer... ")
+        input_one=input("This is a multiplication/division/addition/subtraction/exponents table whatever number you type it will give u answer... ")
         input_two=input("What is the length of the table? ... ")
     input_three=input("Do u want to use multiplication or division or addition or subtraction or exponents( *or/or+or-or** )")
     if input_three == "*":
